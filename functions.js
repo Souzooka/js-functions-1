@@ -242,6 +242,17 @@ function increase(num) {
  * @return {object} restaurant
  */
 
+ function incrementReviews(restaurant) {
+
+  if (restaurant.reviews === undefined) {
+    restaurant.reviews = 0;
+  }
+
+  restaurant.reviews++;
+
+  return restaurant.reviews;
+ }
+
 
 /**
  * Joins two strings with a space.
@@ -249,6 +260,10 @@ function increase(num) {
  * @param {string} word2
  * @return {string} joined the words joined with a space
  */
+
+ function combine(word1, word2) {
+  return word1 + " " + word2;
+ }
 
 
 /**
