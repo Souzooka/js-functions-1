@@ -172,6 +172,9 @@ function increase(num) {
  * @return {number} the largest number
  */
 
+ function maximum(x, y) {
+  return Math.max(x, y);
+ }
 
 /**
  * Returns true if `n` is even.
