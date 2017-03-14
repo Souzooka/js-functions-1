@@ -48,6 +48,9 @@ function increase(num) {
  * @return {number} the difference
  */
 
+ function subtract(value1, value2) {
+  return value1 - value2;
+ }
 
 /**
  * Multiplies two numbers.
