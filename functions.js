@@ -24,9 +24,9 @@ function increase(num) {
  * @return {number}
  */
 
- function decrease(num) {
+function decrease(num) {
   return --num;
- }
+}
 
 
 /**
@@ -36,9 +36,9 @@ function increase(num) {
  * @return {number} the sum
  */
 
- function add(value1, value2) {
+function add(value1, value2) {
   return value1 + value2;
- }
+}
 
 
 /**
@@ -48,9 +48,9 @@ function increase(num) {
  * @return {number} the difference
  */
 
- function subtract(value1, value2) {
+function subtract(value1, value2) {
   return value1 - value2;
- }
+}
 
 /**
  * Multiplies two numbers.
@@ -59,9 +59,9 @@ function increase(num) {
  * @return {number} the product
  */
 
- function multiply(value1, value2) {
+function multiply(value1, value2) {
   return value1 * value2;
- }
+}
 
 /**
  * Divides the first number by the second.
@@ -70,9 +70,9 @@ function increase(num) {
  * @return {number} the quotient
  */
 
- function divide(value1, value2) {
+function divide(value1, value2) {
   return value1 / value2;
- }
+}
 
 /**
  * Multiplies a number by itself.
@@ -80,9 +80,9 @@ function increase(num) {
  * @return {number} squared
  */
 
- function square(num) {
+function square(num) {
   return num * num;
- }
+}
 
 
 /**
@@ -94,7 +94,7 @@ function increase(num) {
  * @return {number} the result
  */
 
- function calculate(opcode, value1, value2) {
+function calculate(opcode, value1, value2) {
 
   var result = null;
   var operator = null;
@@ -123,7 +123,7 @@ function increase(num) {
   var printedResult = `${value1} ${operator} ${value2} = ${result}`;
   console.log(printedResult);
   return result;
- }
+}
 
 /**
  * Returns true if `a` is greater than `b`.
@@ -132,9 +132,9 @@ function increase(num) {
  * @return {boolean} `a` is larger than `b`
  */
 
- function isGreaterThan(a, b) {
+function isGreaterThan(a, b) {
   return (a > b);
- }
+}
 
 
 /**
@@ -144,9 +144,9 @@ function increase(num) {
  * @return {boolean} `a` is smaller than `b`
  */
 
- function isLessThan(a, b) {
+function isLessThan(a, b) {
   return (a < b);
- }
+}
 
 /**
  * Returns true if `a` and `b` are equal.
@@ -155,9 +155,9 @@ function increase(num) {
  * @return {boolean} the numbers are equal
  */
 
- function areEqual(a, b) {
+function areEqual(a, b) {
   return a === b;
- }
+}
 
 /**
  * Returns the smallest value of two numbers.
@@ -166,9 +166,9 @@ function increase(num) {
  * @return {number} the smallest number
  */
 
- function minimum(x, y) {
+function minimum(x, y) {
   return Math.min(x, y);
- }
+}
 
 /**
  * Returns the largest value of two numbers.
@@ -177,9 +177,9 @@ function increase(num) {
  * @return {number} the largest number
  */
 
- function maximum(x, y) {
+function maximum(x, y) {
   return Math.max(x, y);
- }
+}
 
 /**
  * Returns true if `n` is even.
@@ -187,9 +187,9 @@ function increase(num) {
  * @return {boolean} the number is even
  */
 
- function isEven(n) {
+function isEven(n) {
   return n % 2 === 0;
- }
+}
 
 
 /**
@@ -198,9 +198,9 @@ function increase(num) {
  * @return {boolean} the number is odd
  */
 
- function isOdd(n) {
+function isOdd(n) {
   return Math.abs(n % 2) === 1;
- }
+}
 
 /**
  * Returns a letter grade.
@@ -214,7 +214,7 @@ function increase(num) {
  * @return {string} the score represented as a letter grade
  */
 
- function letterGrade(score, maxScore) {
+function letterGrade(score, maxScore) {
   var percentage = (score / maxScore) * 100;
 
   switch (Math.floor(percentage / 10)) {
@@ -237,7 +237,7 @@ function increase(num) {
     default:
       break;
   }
- }
+}
 
 /**
  * Checks if a `restaurant` object has a `reviews` property.
@@ -247,7 +247,7 @@ function increase(num) {
  * @return {object} restaurant
  */
 
- function incrementReviews(restaurant) {
+function incrementReviews(restaurant) {
 
   if (restaurant.reviews === undefined) {
     restaurant.reviews = 0;
@@ -256,7 +256,7 @@ function increase(num) {
   restaurant.reviews++;
 
   return restaurant;
- }
+}
 
 
 /**
@@ -266,9 +266,9 @@ function increase(num) {
  * @return {string} joined the words joined with a space
  */
 
- function combine(word1, word2) {
+function combine(word1, word2) {
   return word1 + " " + word2;
- }
+}
 
 
 /**
