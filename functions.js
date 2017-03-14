@@ -14,6 +14,9 @@ function numberToString(num) {
  * @return {number}
  */
 
+function increase(num) {
+  return ++num;
+}
 
 /**
  * Subtracts one from a given number.
