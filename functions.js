@@ -274,3 +274,13 @@ function increase(num) {
  * @return {object} circle
  */
 
+function createCircle(radius) {
+  // 2 seconds for this function ????
+
+  var circle = {};
+
+  circle.circumference = 2 * radius * Math.PI;
+  circle.area = radius * radius * Math.PI;
+
+  return circle;
+}
