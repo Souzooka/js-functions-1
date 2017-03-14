@@ -80,6 +80,10 @@ function increase(num) {
  * @return {number} squared
  */
 
+ function square(num) {
+  return num * num;
+ }
+
 
 /**
  * Performs a mathematical operation on two numbers.
