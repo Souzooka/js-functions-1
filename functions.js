@@ -70,6 +70,9 @@ function increase(num) {
  * @return {number} the quotient
  */
 
+ function divide(value1, value2) {
+  return value1 / value2;
+ }
 
 /**
  * Multiplies a number by itself.
