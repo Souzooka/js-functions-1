@@ -102,22 +102,24 @@ function increase(num) {
     case "add":
       result = value1 + value2;
       console.log(value1 + " + " + value2 + " = " + result);
-      return result;
+      break;
     case "subtract":
       result = value1 - value2;
       console.log(value1 + " - " + value2 + " = " + result);
-      return result;
+      break;
     case "multiply":
       result = value1 * value2;
       console.log(value1 + " * " + value2 + " = " + result);
-      return result;
+      break;
     case "divide":
       result = value1 / value2;
       console.log(value1 + " / " + value2 + " = " + result);
-      return result;
+      break;
     default:
       throw "Invalid operation.";
   }
+
+  return result;
  }
 
 /**
