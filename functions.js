@@ -209,6 +209,30 @@ function increase(num) {
  * @return {string} the score represented as a letter grade
  */
 
+ function letterGrade(score, maxScore) {
+  var percentage = (score / maxScore) * 100;
+
+  switch (Math.floor(percentage / 10)) {
+    case 10:
+    case 9:
+      return "A";
+    case 8:
+      return "B";
+    case 7:
+      return "C";
+    case 6:
+      return "D";
+    case 5:
+    case 4:
+    case 3:
+    case 2:
+    case 1:
+    case 0:
+      return "F";
+    default:
+      break;
+  }
+ }
 
 /**
  * Checks if a `restaurant` object has a `reviews` property.
