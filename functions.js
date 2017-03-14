@@ -36,6 +36,10 @@ function increase(num) {
  * @return {number} the sum
  */
 
+ function add(value1, value2) {
+  return value1 + value2;
+ }
+
 
 /**
  * Subtracts the second number from the first.
