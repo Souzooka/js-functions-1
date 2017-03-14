@@ -97,28 +97,31 @@ function increase(num) {
  function calculate(opcode, value1, value2) {
 
   var result = null;
+  var operator = null;
 
   switch (opcode) {
     case "add":
       result = value1 + value2;
-      console.log(value1 + " + " + value2 + " = " + result);
+      operator = "+";
       break;
     case "subtract":
       result = value1 - value2;
-      console.log(value1 + " - " + value2 + " = " + result);
+      operator = "-";
       break;
     case "multiply":
       result = value1 * value2;
-      console.log(value1 + " * " + value2 + " = " + result);
+      operator = "*";
       break;
     case "divide":
       result = value1 / value2;
-      console.log(value1 + " / " + value2 + " = " + result);
+      operator = "/";
       break;
     default:
       throw "Invalid operation.";
   }
 
+  var printedResult = `${value1} ${operator} ${value2} = ${result}`;
+  console.log(printedResult);
   return result;
  }
 
