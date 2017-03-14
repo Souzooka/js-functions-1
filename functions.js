@@ -4,6 +4,9 @@
  * @return {string} the number as a string
  */
 
+function numberToString(num) {
+  return String(num);
+}
 
 /**
  * Adds one to a given number.
