@@ -139,6 +139,9 @@ function increase(num) {
  * @return {boolean} `a` is smaller than `b`
  */
 
+ function isLessThan(a, b) {
+  return (a < b);
+ }
 
 /**
  * Returns true if `a` and `b` are equal.
