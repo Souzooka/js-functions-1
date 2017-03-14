@@ -94,6 +94,31 @@ function increase(num) {
  * @return {number} the result
  */
 
+ function calculate(opcode, value1, value2) {
+
+  var result = null;
+
+  switch (opcode) {
+    case "add":
+      result = value1 + value2;
+      console.log(value1 + " + " + value2 + " = " + result);
+      return result;
+    case "subtract":
+      result = value1 - value2;
+      console.log(value1 + " - " + value2 + " = " + result);
+      return result;
+    case "multiply":
+      result = value1 * value2;
+      console.log(value1 + " * " + value2 + " = " + result);
+      return result;
+    case "divide":
+      result = value1 / value2;
+      console.log(value1 + " / " + value2 + " = " + result);
+      return result;
+    default:
+      throw "Invalid operation.";
+  }
+ }
 
 /**
  * Returns true if `a` is greater than `b`.
