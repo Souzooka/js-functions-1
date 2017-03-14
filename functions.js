@@ -250,7 +250,7 @@ function increase(num) {
 
   restaurant.reviews++;
 
-  return restaurant.reviews;
+  return restaurant;
  }
 
 
